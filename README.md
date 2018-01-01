@@ -1,3 +1,5 @@
+![Real gopher...][gooopher]
+[gooopher]:https://github.com/ismayilmalik/golang-design-patterns/blob/master/gopher.jpg" "Gooopher.."
 # Design patterns in golang
 >A beginner guide... happy coding!
 
