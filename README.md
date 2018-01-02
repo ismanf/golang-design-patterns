@@ -10,6 +10,7 @@
 - [Creational patterns](#creational-patterns)
     - [Singleton](#singleton)
     - [Builder](#builder)
+    - [Factory](#factory)
 - [Structural patterns](#structural-patterns)
     - [Composition](#composition)
 - [Behavioral patterns](#behavioral-patterns)
@@ -28,6 +29,10 @@ Ensure a class only has one instance, and provide a global point of access to it
 ### Builder
 Separate the construction of a complex object from its representation so that the
 same construction process can create different representations.
+
+### Factory
+Define an interface for creating an object, but let subclasses decide which class to
+instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 ## Structural patterns
 Structural patterns are concerned with how classes and objects are composed to form
