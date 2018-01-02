@@ -11,6 +11,7 @@
     - [Singleton](#singleton)
     - [Builder](#builder)
     - [Factory](#factory)
+    - [Abstract Factory](#abstract-factory)
 - [Structural patterns](#structural-patterns)
     - [Composition](#composition)
 - [Behavioral patterns](#behavioral-patterns)
@@ -33,6 +34,10 @@ same construction process can create different representations.
 ### Factory
 Define an interface for creating an object, but let subclasses decide which class to
 instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+### Abstract Factory
+Provide an interface for creating famili es of related or dependent objects without
+specifying their concrete classes.
 
 ## Structural patterns
 Structural patterns are concerned with how classes and objects are composed to form
