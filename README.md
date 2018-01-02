@@ -14,6 +14,7 @@
     - [Composition](#composition)
 - [Behavioral patterns](#behavioral-patterns)
     - [Chain of responsibility](#chain-of-responsibility)
+    - [Strategy](#strategy)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
@@ -44,10 +45,15 @@ between objects. Behavio ral patterns describe not just patterns of objects or c
 but also the patterns of communication between them. These patterns characterize
 complex control flow that's difficult to follow at run-time. They shift your focus away
 from flow of control to let you concent ratejust on the way objects are interconnected.
+
 ### Chain of responsibility
 Avoid coupling the sender of a request to its receiver by giving more than one
 object a chance to handle the request. Chain the receiving objects and pass the
 request along the chain until an object handles it.
+
+### Strategy
+Define a family oafl gorit h ms, encapsulate each one, and make them interchangeable.
+Strategy lets the algorithm vary independently from clients that use it.
 
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
