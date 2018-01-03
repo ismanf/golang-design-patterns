@@ -14,6 +14,7 @@
     - [Abstract Factory](#abstract-factory)
 - [Structural patterns](#structural-patterns)
     - [Composition](#composition)
+    - [Adapter](#adapter)
 - [Behavioral patterns](#behavioral-patterns)
     - [Chain of responsibility](#chain-of-responsibility)
     - [Strategy](#strategy)
@@ -48,6 +49,10 @@ more classes into one.
 ### Composition
 Compose objects into tree structures to represent part-whole hierarchies. Composite
 lets clients treat individual objects and compositions of objects uniformly.
+
+### Adapter
+Convert the interfac e of a class into another interface clients expect. Adapter lets
+classes work together that couldn' t otherwise because of incompatible interfaces.
 
 ## Behavioral patterns
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities
