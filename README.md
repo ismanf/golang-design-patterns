@@ -12,6 +12,7 @@
     - [Builder](#builder)
     - [Factory](#factory)
     - [Abstract Factory](#abstract-factory)
+    - [Prototype](#prototype)
 - [Structural patterns](#structural-patterns)
     - [Composition](#composition)
     - [Adapter](#adapter)
@@ -39,6 +40,9 @@ instantiate. Factory Method lets a class defer instantiation to subclasses.
 ### Abstract Factory
 Provide an interface for creating famili es of related or dependent objects without
 specifying their concrete classes.
+
+### Prototype
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this protoype.
 
 ## Structural patterns
 Structural patterns are concerned with how classes and objects are composed to form
