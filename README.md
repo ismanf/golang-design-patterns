@@ -16,6 +16,7 @@
 - [Structural patterns](#structural-patterns)
     - [Composition](#composition)
     - [Adapter](#adapter)
+    - [Bridge](#bridge)
 - [Behavioral patterns](#behavioral-patterns)
     - [Chain of responsibility](#chain-of-responsibility)
     - [Strategy](#strategy)
@@ -57,6 +58,9 @@ lets clients treat individual objects and compositions of objects uniformly.
 ### Adapter
 Convert the interfac e of a class into another interface clients expect. Adapter lets
 classes work together that couldn' t otherwise because of incompatible interfaces.
+
+### Bridge
+Decouple an abstraction from its implementation so that the two can vary independently.
 
 ## Behavioral patterns
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities
