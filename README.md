@@ -21,6 +21,7 @@
     - [Chain of responsibility](#chain-of-responsibility)
     - [Strategy](#strategy)
     - [Observer](#observer)
+    - [State](#state)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
@@ -81,6 +82,9 @@ Strategy lets the algorithm vary independently from clients that use it.
 
 ### Observer
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically
+
+### State
+Allow an object alter its behavior when its internal state changes. The object will appear on change its class
 
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
