@@ -1,6 +1,6 @@
-![alt text][gooopher]
-
-[gooopher]:https://raw.githubusercontent.com/ismayilmalik/golang-design-patterns/master/gopher.jpg "Gooopher.."
+<img src="logo.png" alt="design patterns logo" align="center" />
+<br />
+<br />
 
 # Design patterns in golang
 >A beginner guide... happy coding!
@@ -20,6 +20,7 @@
 - [Behavioral patterns](#behavioral-patterns)
     - [Chain of responsibility](#chain-of-responsibility)
     - [Strategy](#strategy)
+    - [Observer](#observer)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
@@ -77,6 +78,9 @@ request along the chain until an object handles it.
 ### Strategy
 Define a family oafl gorit h ms, encapsulate each one, and make them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
+
+### Observer
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically
 
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
