@@ -86,5 +86,11 @@ Define a one-to-many dependency between objects so that when one object changes 
 ### State
 Allow an object alter its behavior when its internal state changes. The object will appear on change its class
 
+### Visitor
+Represent an operation to be performed on the elements of an object structure.Visitor lets you define new operation without changing the classes of the elements of which operates
+
+### Mediator
+Define an object that encapsulates how a set of objects interact.Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently
+
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
