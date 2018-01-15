@@ -22,6 +22,8 @@
     - [Strategy](#strategy)
     - [Observer](#observer)
     - [State](#state)
+    - [Visitor](#visitor)
+    - [Mediator](#mediator)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
