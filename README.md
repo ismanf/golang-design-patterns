@@ -98,5 +98,8 @@ Define an object that encapsulates how a set of objects interact.Mediator promot
 ### Template
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
 
+### Memento
+Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
+
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
