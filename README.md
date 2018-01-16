@@ -24,6 +24,7 @@
     - [State](#state)
     - [Visitor](#visitor)
     - [Mediator](#mediator)
+    - [Template](#template)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
@@ -93,6 +94,9 @@ Represent an operation to be performed on the elements of an object structure.Vi
 
 ### Mediator
 Define an object that encapsulates how a set of objects interact.Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently
+
+### Template
+Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
 
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
