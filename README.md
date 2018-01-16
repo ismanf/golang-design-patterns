@@ -25,6 +25,7 @@
     - [Visitor](#visitor)
     - [Mediator](#mediator)
     - [Template](#template)
+    - [Memento](#memento)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
