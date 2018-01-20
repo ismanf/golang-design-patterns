@@ -26,6 +26,8 @@
     - [Mediator](#mediator)
     - [Template](#template)
     - [Memento](#memento)
+    - [Interpretor](#interpretor)
+    - [Command](#command)
 - [Concurrency patterns](#concurrency-patterns)
 
 ---
@@ -101,6 +103,12 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 
 ### Memento
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
+
+### Interpretor
+Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+
+### Command
+Encapsulate a request as an object, thereby letting you parametrize clients with different requests, and support undoable operations.
 
 ## Concurrency patterns
 Pattenrs for concurrent work and parallel execution in Go.
