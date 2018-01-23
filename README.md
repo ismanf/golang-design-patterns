@@ -17,6 +17,7 @@
     - [Composition](#composition)
     - [Adapter](#adapter)
     - [Bridge](#bridge)
+    - [Decorator](#decorator)
 - [Behavioral patterns](#behavioral-patterns)
     - [Chain of responsibility](#chain-of-responsibility)
     - [Strategy](#strategy)
@@ -69,6 +70,9 @@ classes work together that couldn' t otherwise because of incompatible interface
 
 ### Bridge
 Decouple an abstraction from its implementation so that the two can vary independently.
+
+### Decorator
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 ## Behavioral patterns
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities
