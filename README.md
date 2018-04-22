@@ -111,6 +111,9 @@ Without violating encapsulation, capture and externalize an object's internal st
 ### Interpretor
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 
+### Iterator (Cursor)
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
 ### Command
 Encapsulate a request as an object, thereby letting you parametrize clients with different requests, and support undoable operations.
 
