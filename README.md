@@ -48,11 +48,11 @@ Define an interface for creating an object, but let subclasses decide which clas
 instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 ### Abstract Factory
-Provide an interface for creating famili es of related or dependent objects without
+Provide an interface for creating families of related or dependent objects without
 specifying their concrete classes.
 
 ### Prototype
-Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this protoype.
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 
 ## Structural patterns
 Structural patterns are concerned with how classes and objects are composed to form
@@ -65,7 +65,7 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 lets clients treat individual objects and compositions of objects uniformly.
 
 ### Adapter
-Convert the interfac e of a class into another interface clients expect. Adapter lets
+Convert the interface of a class into another interface clients expect. Adapter lets
 classes work together that couldn' t otherwise because of incompatible interfaces.
 
 ### Bridge
@@ -76,10 +76,10 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 
 ## Behavioral patterns
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities
-between objects. Behavio ral patterns describe not just patterns of objects or classes
+between objects. Behavioral patterns describe not just patterns of objects or classes
 but also the patterns of communication between them. These patterns characterize
 complex control flow that's difficult to follow at run-time. They shift your focus away
-from flow of control to let you concent ratejust on the way objects are interconnected.
+from flow of control to let you concentrate just on the way objects are interconnected.
 
 ### Chain of responsibility
 Avoid coupling the sender of a request to its receiver by giving more than one
@@ -87,7 +87,7 @@ object a chance to handle the request. Chain the receiving objects and pass the
 request along the chain until an object handles it.
 
 ### Strategy
-Define a family oafl gorit h ms, encapsulate each one, and make them interchangeable.
+Define a family of algorithms, encapsulate each one, and make them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 
 ### Observer
@@ -108,7 +108,7 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 ### Memento
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
-### Interpretor
+### Interpreter
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 
 ### Iterator (Cursor)
@@ -118,4 +118,4 @@ Provide a way to access the elements of an aggregate object sequentially without
 Encapsulate a request as an object, thereby letting you parametrize clients with different requests, and support undoable operations.
 
 ## Concurrency patterns
-Pattenrs for concurrent work and parallel execution in Go.
+Patterns for concurrent work and parallel execution in Go.
