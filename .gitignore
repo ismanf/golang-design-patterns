@@ -1,2 +1,4 @@
 # Binaries for programs and plugins
 *.exe
+fl
+main.go
