@@ -1,5 +1,6 @@
 package builder
 
+// Product to build
 type PersonalComputer struct {
 	ramCap int
 	hddCap int
@@ -8,6 +9,7 @@ type PersonalComputer struct {
 	gpu    string
 }
 
+// Each builder should implement this interface 
 type PCBuilder interface {
 	SetRAM() PCBuilder
 	SetHDD() PCBuilder
@@ -22,6 +24,11 @@ type HomeEditionPCBuilder struct {
 	pc PersonalComputer
 }
 
+// You may ask "Wait? we can set those values on struct initialization.Why
+// brand new pattern for it?" and you are right. But remember this is just a
+// concise implementation for with informational intend. In reality your
+// construction methods will be more sophisticated, so struct initialization 
+// will not help.
 func (b *HomeEditionPCBuilder) SetRAM() PCBuilder {
 	b.pc.ramCap = 4
 	return b
