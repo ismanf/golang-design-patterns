@@ -40,16 +40,17 @@ func (s *StopState) executeState(c *Context) {
 
 func StateDemo() {
 	context := &Context{}
+	var state State
 
-	startState := &StartState{}
-	startState.executeState(context)
+	state = &StartState{}
+	state.executeState(context)
 	fmt.Println("state: ", context)
 
-	inprState := &InprogressState{}
-	inprState.executeState(context)
+	state = &InprogressState{}
+	state.executeState(context)
 	fmt.Println("state: ", context)
 
-	stopState := &StopState{}
-	stopState.executeState(context)
+	state = &StopState{}
+	state.executeState(context)
 	fmt.Println("state: ", context)
 }
