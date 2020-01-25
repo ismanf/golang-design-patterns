@@ -1,6 +1,6 @@
 package adapter
 
-//old bad service which we can't chane
+//old, bad service which we can't change
 type OldEmailSender interface {
 	Send(from, to, subject, body string) error
 }
@@ -12,8 +12,8 @@ func (s OldEmailSvc) Send(from, to, subject, body string) error {
 	return nil
 }
 
-//new service ehich has state
-//we have client only supports this interface
+//new service which has state
+//we have a client only supporting this interface
 type NewEmailSender interface {
 	Send() error
 }
@@ -27,7 +27,7 @@ func (s NewEmailService) Send() error {
 	return nil
 }
 
-//adapter for old email service
+//adapter for the old email service
 type OldEmailServiceAdapter struct {
 	From, To, Subject, Body string
 	OldEmailService         OldEmailSender
@@ -38,7 +38,7 @@ func (a OldEmailServiceAdapter) Send() error {
 }
 
 /*
-    client which only supports new email service interface
+    client which only supports the new email service interface
 	EmailClient{ Mail: OldEmailServiceAdapter{...}} old service
 	EmailClient{ Mail: NewEmailService{...}} new service
 */
