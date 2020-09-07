@@ -21,7 +21,7 @@ func (b *OpenBar) Welcome(h Human) error {
 }
 
 type BarProxy struct {
-	bar Bar
+	Bar
 }
 
 func (b *BarProxy) Welcome(h Human) error {
@@ -33,5 +33,5 @@ func (b *BarProxy) Welcome(h Human) error {
 		return errors.New("Males under 18 not allowed.")
 	}
 
-	return b.bar.Welcome(h)
+	return b.Bar.Welcome(h)
 }
